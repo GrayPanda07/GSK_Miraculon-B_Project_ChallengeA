@@ -2,30 +2,42 @@
 
 ## Overview
 
-The `protein-levels.xlsx` file contains biomarker data collected during a clinical trial to evaluate the effectiveness of the cancer treatment Miraculon-B. The dataset focuses on protein concentrations that may predict patient response to treatment and the likelihood of adverse effects.
+The `protein-levels.xlsx` file contains data related to the concentration of a specific protein in patients' blood, hypothesised to act as a predictive biomarker for treatment response and adverse events in the clinical trial for Miraculon-B. This dataset supports subgroup analyses to identify patients most likely to benefit from the treatment.
 
 ---
 
 ## Data Description
 
-The dataset consists of **768 rows** and **2 columns**. Each row corresponds to a unique patient, and the columns provide information about patient IDs and protein concentrations.
+The dataset consists of **768 rows** (patients) and **2 columns** (variables). Each row corresponds to a patient included in the clinical trial.
 
 ### Columns:
-- **`participant_id`**: Unique identifier for each patient (matches `subject_id` in `clinical-study.xlsx` for merging datasets).
-- **`protein_concentration`**: Concentration of a specific blood protein (measured in µg/L) that is a potential predictive biomarker for treatment response and adverse effects.
+- **`participant_id`**: Unique identifier for each patient.
+- **`protein_concentration`**: Protein concentration in the patient's blood (in micrograms per litre, `µg/L`).
 
 ---
 
 ## Usage
 
-This dataset is used to:
-1. **Identify Predictive Biomarkers**: Explore the relationship between `protein_concentration` and treatment outcomes (`response` in `clinical-study.xlsx`).
-2. **Sub-group Analysis**: Determine how different protein concentration levels impact the likelihood of responding to Miraculon-B or experiencing adverse effects.
+This dataset is used for:
+1. **Biomarker Analysis**: Investigating the relationship between protein levels and treatment response or adverse events.
+2. **Predictive Modelling**: Assessing whether protein concentration can predict which patients are most likely to benefit from Miraculon-B.
+
+---
+
+## Accessing the Dataset
+
+The `protein-levels.xlsx` dataset is not publicly accessible. To request access, please email:
+
+**[noikovitcha@gmail.com](mailto:noikovitcha@gmail.com)**
+
+When emailing, include:
+- Your full name.
+- The purpose of your request.
+- Your organisation or academic affiliation (if applicable).
 
 ---
 
 ## Notes
 
-- **Merging**: The `participant_id` column can be used to merge this dataset with `clinical-study.xlsx` on patient IDs.
-- **Missing Values**: Handle any missing data (`NA`) appropriately during the analysis.
-- **Outliers**: Investigate and handle any extreme protein concentration values as these could impact statistical models.
+- **Merge with Clinical Data**: This dataset can be merged with the `clinical-study.xlsx` dataset using the `participant_id` column to perform comprehensive analyses.
+- **Data Cleaning**: Ensure no missing or duplicate values before analysis.
