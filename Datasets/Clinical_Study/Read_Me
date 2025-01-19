@@ -1,1 +1,43 @@
+# README: Clinical Study Dataset (`clinical-study.csv`)
+
+## Overview
+
+The `clinical-study.csv` file contains patient-level data collected during a clinical trial to evaluate the effectiveness of the cancer treatment Miraculon-B. This dataset is used to assess treatment responses and identify potential sub-group variations among patients.
+
+---
+
+## Data Description
+
+The dataset consists of **772 rows** (patients) and **7 columns** (variables). Each row represents a unique patient, while the columns capture patient characteristics and trial outcomes.
+
+### Columns:
+- **`subject_id`**: Unique identifier for each patient.
+- **`sex`**: Patient's gender (`Male` or `Female`).
+- **`age`**: Patient's age (in years).
+- **`weight`**: Patient's weight (in kilograms).
+- **`height`**: Patient's height (in metres).
+- **`trt_grp`**: Treatment group:
+  - `Drug`: Patients receiving Miraculon-B.
+  - `Control`: Patients receiving the standard of care.
+- **`response`**: Treatment response outcome:
+  - `Yes`: Tumour showed a favourable response (e.g., shrinkage).
+  - `No`: Tumour did not show a favourable response (e.g., remained the same or grew).
+
+---
+
+## Usage
+
+This dataset is central to analysing:
+1. **Efficacy of Miraculon-B**: Compare treatment outcomes (`response`) between `Drug` and `Control` groups.
+2. **Sub-group Analysis**: Investigate how demographic and physical factors (e.g., `age`, `weight`, `height`, `sex`) influence treatment response.
+
+---
+
+## Notes
+
+- **Duplicates**: The dataset may contain duplicate rows. These should be removed before analysis.
+- **Paediatric Data**: Rows with patients under 18 years old should be excluded from the analysis.
+- **Missing Values**: A small number of `NA` values may exist and should be handled appropriately during data cleaning.
+
+
 
