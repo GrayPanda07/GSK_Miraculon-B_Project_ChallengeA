@@ -20,8 +20,8 @@ The dataset consists of **772 rows** (patients) and **7 columns** (variables). E
   - `Drug`: Patients receiving Miraculon-B.
   - `Control`: Patients receiving the standard of care.
 - **`response`**: Treatment response outcome:
-  - `Yes`: Tumour showed a favourable response (e.g., shrinkage).
-  - `No`: Tumour did not show a favourable response (e.g., remained the same or grew).
+  - `Yes`: Tumour responded favourably (e.g., shrinkage).
+  - `No`: Tumour did not respond favourably (e.g., remained the same or grew).
 
 ---
 
@@ -33,10 +33,21 @@ This dataset is central to analysing:
 
 ---
 
+## Accessing the Dataset
+
+The `clinical-study.xlsx` dataset is not publicly accessible. To request access, please email:
+
+**[noikovitcha@gmail.com](mailto:noikovitcha@gmail.com)**
+
+When emailing, include:
+- Your full name.
+- The purpose of your request.
+- Your organisation or academic affiliation (if applicable).
+
+---
+
 ## Notes
 
 - **Duplicates**: The dataset may contain duplicate rows. These should be removed before analysis.
-- **Paediatric Data**: Rows with patients under 18 years old should be excluded from the analysis.
+- **Paediatric Data**: Rows with patients under 18 should be excluded from the analysis.
 - **Missing Values**: A small number of `NA` values may exist and should be handled appropriately during data cleaning.
-
-
