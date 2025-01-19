@@ -51,3 +51,6 @@ When emailing, include:
 - **Duplicates**: The dataset may contain duplicate rows. These should be removed before analysis.
 - **Paediatric Data**: Rows with patients under 18 should be excluded from the analysis.
 - **Missing Values**: A small number of `NA` values may exist and should be handled appropriately during data cleaning.
+
+  ---
+This file is part of the GSK "Step Up" Career Challenge resources.
