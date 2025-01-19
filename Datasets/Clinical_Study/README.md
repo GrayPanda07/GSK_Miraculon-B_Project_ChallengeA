@@ -1,8 +1,8 @@
-# README: Clinical Study Dataset (`clinical-study.csv`)
+# README: Clinical Study Dataset (`clinical-study.xlsx`)
 
 ## Overview
 
-The `clinical-study.csv` file contains patient-level data collected during a clinical trial to evaluate the effectiveness of the cancer treatment Miraculon-B. This dataset is used to assess treatment responses and identify potential sub-group variations among patients.
+The `clinical-study.xlsx` file contains patient-level data collected during a clinical trial to evaluate the effectiveness of the cancer treatment Miraculon-B. This dataset is used to assess treatment responses and identify potential sub-group variations among patients.
 
 ---
 
@@ -39,9 +39,4 @@ This dataset is central to analysing:
 - **Paediatric Data**: Rows with patients under 18 years old should be excluded from the analysis.
 - **Missing Values**: A small number of `NA` values may exist and should be handled appropriately during data cleaning.
 
----
-
-## File Location
-
-This file is located in the following folder:
 
