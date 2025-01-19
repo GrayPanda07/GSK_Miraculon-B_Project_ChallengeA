@@ -41,3 +41,7 @@ When emailing, include:
 
 - **Merge with Clinical Data**: This dataset can be merged with the `clinical-study.xlsx` dataset using the `participant_id` column to perform comprehensive analyses.
 - **Data Cleaning**: Ensure no missing or duplicate values before analysis.
+
+---
+
+This file is part of the GSK "Step Up" Career Challenge resources.
