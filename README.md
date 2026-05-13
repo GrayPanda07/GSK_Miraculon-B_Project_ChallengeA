@@ -25,14 +25,21 @@ Analyse clinical trial data to:
   - `excel_cheatsheet.pptx`: Excel tips for data analysis.
   - `analytical_roles.pdf`: Insights into pharmaceutical analytical roles.
 
+-**Language files**
+  -'GSK_challengeA_python.py': Python Code for the challenge.
+  -'GSK_challengeA_R.r': R-Language code for the challenge.
+  -'GSK_challengeA_Excel.xl': Excel/Google sheets code for the challenge.
+  
 - **Presentation Template**:
-  - `step_up_presentation.pptx`: For presenting findings.
-
+  - `Miraculon-B Clinical Trial_python.pptx`: For presenting findings from python code.
+ - `Miraculon-B Clinical Trial_Excel.pptx`: For presenting findings from excel code.
+ - - `Miraculon-B Clinical Trial_R.pptx`: For presenting findings from R-Language.
+     
 ---
 
 ## Tools
 
 Recommended tools:
-- **Microsoft Excel** (or free online version).
+- **Microsoft Excel** (or free online version or Google Sheets).
 - **RStudio** via [Posit Cloud](https://posit.cloud/).
 - **Python** via [Google Colab](https://colab.research.google.com/) for scalable and collaborative analysis.
